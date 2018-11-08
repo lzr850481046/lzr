@@ -1,0 +1,41 @@
+#banner {
+  width: 1200px;
+  height: 535px;
+  margin: 0 auto;
+  position: relative; }
+  #banner img {
+    transition: 2s;
+    position: absolute; }
+  #banner #circle {
+    list-style: none;
+    padding-left: 0px;
+    position: absolute;
+    bottom: 15px;
+    left: 500px;
+    clear: both; }
+    #banner #circle li {
+      width: 20px;
+      height: 20px;
+      margin-left: 10px;
+      border: 1px solid #e9cbc8;
+      border-radius: 50%;
+      float: left;
+      background: #9c9c91; }
+  #banner .bpbn {
+    display: block;
+    width: 34px;
+    height: 64px;
+    border-radius: 5px;
+    position: absolute; }
+  #banner .bprev {
+    background: url(../picture/focus_lr0918.png) no-repeat;
+    left: 30px;
+    top: 250px; }
+    #banner .bprev:hover {
+      background: url(../picture/focus_lr0918.png) no-repeat 0 -61px; }
+  #banner .bnext {
+    background: url(../picture/focus_lr0918.png) no-repeat -46px 0;
+    right: 30px;
+    top: 250px; }
+    #banner .bnext:hover {
+      background: url(../picture/focus_lr0918.png) no-repeat -46px -61px; }

@@ -1,0 +1,22 @@
+/*footer底部内容*/
+#footertop{
+    width: 1200px;
+    margin: auto;
+}
+#about_1 a:hover {
+    text-decoration: none;
+}
+#about_1 .onlineTime{
+    width:10rem;
+    line-height: 2rem;
+    background: #B81B22;
+    color: #fff;
+    
+}
+#footertop .footernav ul li a:hover{
+    text-decoration: none;
+}
+#footerdown{
+    width: 900px;
+    margin: auto;
+}

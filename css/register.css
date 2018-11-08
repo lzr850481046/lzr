@@ -1,0 +1,103 @@
+.my_small{
+    font-size: 0.8rem;
+}
+#register{
+    width:1200px;
+    margin:auto;
+}
+.register_bg{
+    margin-top:100px;
+    margin-left:170px;
+}
+#my_register{
+    width:415px;
+    margin: 30px auto 50px;
+}
+#my_register hr{
+    height: 1px;
+    background: #B81B22;
+}
+#register input{
+    font-size: 14px;
+    padding-left: 10px;
+}
+#my_register .register_yzm{
+    width: 68%;
+    height: 45px;
+    border: 1px solid #cccccc;
+}
+#my_register .yzm_picture{
+    width: 30%;
+    height: 45px;
+    vertical-align: top;
+}
+#my_register .register_phone{
+    width: 68%;
+    height: 45px;
+    margin: 25px 0;
+    border: 1px solid #cccccc;
+}
+#my_register .hqdxyzm{
+    display: inline-block;
+    width: 30%;
+    line-height: 44px;
+    margin: 25px 0;
+    color: #B81B22;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #cccccc;
+}
+#my_register .register_phone_yzm{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #cccccc;
+}
+#my_register .register_upwd{
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    border: 1px solid #cccccc;
+}
+#my_register .register_upws_again{
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc;
+}
+#register_btn{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    line-height: 45px;
+    margin-top: 16px;
+    background: #9A9A9A;
+    border: none;
+}
+.buttom_link a{
+    display: inline-block;
+    margin-right: 15px;
+}
+.buttom_link .cxwz{
+    width: 112px;
+    height: 42px;
+    background: url("../img/spritesbgtop.png") no-repeat 0 -582px;
+}
+.buttom_link .zgfz{
+    width: 156px;
+    height: 45px;
+    background: url("../img/spritesbgtop.png") no-repeat 0 -629px;
+}
+.buttom_link .wsjy{
+    width: 96px;
+    height: 42px;
+    background: url("../img/spritesbgtop.png") no-repeat 0 -675px;
+}
+.buttom_link .jyx{
+    width: 101px;
+    height: 42px;
+    background: url("../img/spritesbgtop.png") no-repeat -97px -675px;
+}

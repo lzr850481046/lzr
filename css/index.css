@@ -1,0 +1,152 @@
+
+.my_small{
+    font-size: 0.8rem;
+}
+/*轮播*/
+#banner {
+    width: 1200px;
+    height: 535px;
+    margin: 0 auto;
+    position: relative; }
+    #banner img {
+      transition: all 1.5s;
+      position: absolute; }
+    #banner #circle {
+      list-style: none;
+      padding-left: 0px;
+      position: absolute;
+      bottom: 15px;
+      left: 500px;
+      clear: both; }
+      #banner #circle li {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        border: 1px solid #e9cbc8;
+        border-radius: 50%;
+        float: left;
+        background: #9c9c91; }
+    #banner .bpbn {
+      display: block;
+      width: 34px;
+      height: 64px;
+      border-radius: 5px;
+      position: absolute; }
+    #banner .bprev {
+      background: url(../img/focus_lr0918.png) no-repeat;
+      left: 30px;
+      top: 250px; }
+      #banner .bprev:hover {
+        background: url(../img/focus_lr0918.png) no-repeat 0 -61px; }
+    #banner .bnext {
+      background: url(../img/focus_lr0918.png) no-repeat -46px 0;
+      right: 30px;
+      top: 250px; }
+      #banner .bnext:hover {
+        background: url(../img/focus_lr0918.png) no-repeat -46px -61px; }
+ 
+  
+#section{
+    width: 1200px;
+    margin: auto;
+}
+#new_miaosha_area a{
+    display: block;
+    width: 1200px;
+    height: 64px;
+    text-decoration:none;
+    background: url(../img/miaosha-bg1.jpg) no-repeat scroll 0px 0px;
+	position:relative;
+  }
+#new_miaosha_area a span{
+    color: rgb(0, 26, 255);
+    font-size: 24px;
+    font-weight: bold;
+    line-height:64px;
+	position:absolute;
+	left:720px;
+  }
+
+.yxtj{
+    border-top: 1px solid #6c757d;
+  }
+
+.yxtj>div{
+  width: 280px;height: 450px;
+  overflow: hidden;
+  margin-top: 10px;
+  box-shadow: 0 0 2px 2px rgb(252, 150, 163);
+}
+.yxtj>div img{
+    margin-left: -10px;
+}
+.yxtj>div img:hover{
+  transform: scale(1.05);
+}
+.fttt div{
+  width: 570px;height: 350px;
+  overflow: hidden;
+  margin-top: 20px;
+  position: relative;
+}
+.fttt div>div{
+  position: absolute;
+  top: 0;
+  margin: 0;
+  background: rgba(0, 0, 0,0);
+  transition: all .5s;
+}
+
+#section img{
+    transition: all 0.5s linear;
+}
+.fttt>div:hover div.Ww{
+  background: rgba(0, 0, 0,0.3);
+}
+
+#section .fttt div:hover img{
+    transform: scale(1.05);
+}
+
+#section .floor-wenzi{
+  width: 1200px;
+  border-top: 1px solid #6c757d;
+  margin-top: 20px;
+}
+#section .floor-wenzi p{
+  margin-bottom: 0px;
+}
+#section .floor-wenzi span{
+  font-size: 28px;
+}
+#section .floor-wenzi b{
+  font-size: 32px;
+}
+  
+/*右下角固定的图片链接*/
+.my_shop_inline_window{
+    width: 73px;
+    height: 209px;
+    border: 1px solid rgb(255, 121, 121);
+    border-bottom:none;
+    position:fixed;
+    right: 10px;
+    bottom:50px;
+}
+.my_shop_inline_window ul li a{
+    display:block;
+    width: 73px;
+}
+.my_shop_inline_window .downApp a{
+    height: 76px;
+    background: url(../img/baywindow.png) no-repeat -2px -1px;
+}
+.my_shop_inline_window .online a{
+    height: 76px;
+    background: url(../img/baywindow.png) no-repeat -2px -74px;
+}
+.my_shop_inline_window .to_top a{
+    height: 76px;
+    background: url(../img/baywindow.png) no-repeat -2px -149px;
+}
+
