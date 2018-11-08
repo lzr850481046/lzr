@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>凡客诚品 - 会员登录</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/login.css">
+    
+</head>
+<body>
+    <div id="login">
+        <div class="login_top mt-2">
+            <ul class="d-flex list-unstyled justify-content-between align-items-center">
+                <li><a href="index.html"><img src="img/logo18546.png"></a></li>
+                <li><a href="#" class="text-secondary my_small">帮助</a></li>
+            </ul>
+        </div>
+        <hr class="bg-dark">
+        <div class="row">
+            <div class="col-6 pl-0 pr-0">
+                <img src="img/login120412_newlogo.jpg" class="login_bg">
+            </div>
+            <div class="col-6 pl-0 pr-0">
+                <div id="my_login">
+                    <div class="row m-0 justify-content-between align-items-center">
+                        <h4 class="font-weight-bold mb-0">凡客 Vancl 登录</h4>
+                        <p class="mb-0 my_small">没有账户免费<a href="register.html" class="text-danger">注册</a></p>
+                    </div>
+                    <div class="row m-0">
+                        <a href="#" id="pt_login">普通登录</a>
+                        <a href="#" id="qK_login">快速登录</a>
+                    </div>
+                    <div id="login_child">
+                        <div  id="pt_login_child">
+                            <input type="text" name="uname" placeholder="请输入用户名" class="login_pp">
+                            <input type="password" name="upwd" placeholder="请输入密码" class="login_pp">
+                            <p class="zhmm"><a href="#">找回密码</a></p>
+                            <a href="#" class="login_btn">登录</a>
+                        </div>
+                        <div id="qK_login_child">
+                            <input type="text" placeholder="请输入手机号" class="login_phone">
+                            <a href="#" class="hqdxyzm">获取短信验证码</a>
+                            <input type="password" placeholder="验证码" class="login_yzm">
+                            <img src="img/CalculateValidateCode.jpg" class="yzm_picture"><a href="#" class="my_small text-muted">看不清？换一张</a>
+                            <input type="password" placeholder="请输入手机验证码" class="login_phone_yzm">
+                            <a href="#" class="login_btn">登录</a>
+                        </div>
+                        <hr class="bg-secondary">
+                        <div id="login_footer">
+                            <h6 class="text-muted">使用合作网站账号登录凡客</h6>
+                            <p class="d-block">
+                                <a href="#" class="weixin"></a>
+                                <a href="#" class="xiaomi"></a>
+                                <a href="#" class="zhifubao"></a>
+                                <a href="#" class="qq"></a>
+                                <a href="#" class="qihu360"></a>
+                                <a href="#" class="sina"></a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr class="bg-dark mt-4">
+        <div id="footerdown">
+            <p class="text-center my_small text-muted">Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+            <div class="text-center buttom_link">
+                <a href="#" class="cxwz"></a>
+                <a href="#" class="zgfz"></a>
+                <a href="#" class="wsjy"></a>
+                <a href="#" class="jyx"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        window.onload=function () {
+            var pt_login=document.getElementById('pt_login');
+            var qK_login=document.getElementById('qK_login');
+            var pt_login_child=document.getElementById('pt_login_child');
+            var qK_login_child=document.getElementById('qK_login_child');
+            pt_login.onclick = function(){
+                pt_login.style.background="#B81B22";
+                pt_login.style.color="#fff";
+                pt_login_child.style.display="block";
+
+                qK_login_child.style.display="none";
+                qK_login.style.background="#fff";
+                qK_login.style.color="#7f808d";
+            }
+            qK_login.onclick = function(){
+                pt_login_child.style.display="none";
+                pt_login.style.background="#fff";
+                pt_login.style.color="#7f808d";
+                qK_login_child.style.display="block";
+                qK_login.style.background="#B81B22";
+                qK_login.style.color="#fff";
+            }
+        }
+    </script>
+</body>
+</html>
